@@ -53,28 +53,31 @@ export default function HomePage() {
       </section>
 
       {/* PREVIEW SERVICIOS CON ICONOS */}
-      <section id="preview-servicios" className="preview-section">
-        <h2>Mis Servicios</h2>
-        <p>Soluciones personalizadas que conectan con tu propósito.</p>
+        <section className="preview-section servicios-preview">
+  <h2>Mis Servicios</h2>
+  <p>Soluciones funcionales para cada necesidad</p>
+  <div className="servicios-grid">
+    <div className="servicio-item">
+      <img src="/icons/academico.png" alt="Contenido Académico" />
+      <h4>Contenido Académico</h4>
+    </div>
+    <div className="servicio-item">
+      <img src="/icons/asesoria.png" alt="Asesorías/Tutorías" />
+      <h4>Asesorías y Tutorías</h4>
+    </div>
+    <div className="servicio-item">
+      <img src="/icons/diseno.png" alt="Diseño Gráfico" />
+      <h4>Diseño Gráfico</h4>
+    </div>
+    <div className="servicio-item">
+      <img src="/icons/ppt.png" alt="Presentaciones" />
+      <h4>Presentaciones</h4>
+    </div>
+  </div>
+  <a href="#servicios" className="btn">Ver servicios</a>
+</section>
+     
 
-        <div className="iconos-servicios">
-          <div className="servicio">
-            <img src="/academico.png" alt="Contenido Académico" />
-            <h3>Contenido Académico</h3>
-          </div>
-          <div className="servicio">
-            <img src="/asesoria.png" alt="Asesorías y Tutorías" />
-            <h3>Asesorías / Tutorías</h3>
-          </div>
-          <div className="servicio">
-            <img src="/diseno.png" alt="Diseño Gráfico" />
-            <h3>Diseño Gráfico</h3>
-          </div>
-          <div className="servicio">
-            <img src="/ppt.png" alt="Presentaciones" />
-            <h3>Presentaciones</h3>
-          </div>
-        </div>
 
         <div style={{ textAlign: 'center', marginTop: '1rem' }}>
           <a href="#servicios" className="btn">Ver servicios</a>
