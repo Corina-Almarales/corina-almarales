@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import Image from 'next/image';
-import './globals.css';
+import './global.css';
 
 export default function HomePage() {
   return (
