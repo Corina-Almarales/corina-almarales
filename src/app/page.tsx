@@ -18,7 +18,7 @@ export default function HomePage() {
 
       <section id="preview-servicios" className="preview-section servicios-preview">
         <h2>Mis Servicios</h2>
-        <p>Soluciones funcionales para cada necesidad</p>
+        <p>Soluciones personalizadas que conectan con tu propósito.</p>
         <div className="servicios-grid">
           <div className="servicio-item">
             <img src="/icons/academico.png" alt="Contenido Académico" />
@@ -41,14 +41,16 @@ export default function HomePage() {
       </section>
 
       <section id="cotiza" className="cotiza-section">
-        <h2>Cotiza tu servicio personalizado</h2>
-        <p className="frase-motivacional">¿Tienes una idea y no sabes cómo empezar? ¡Agendá conmigo y empecemos a crear algo especial juntos.</p>
-        <form className="contact-form">
-          <input type="text" placeholder="Tu nombre" required />
-          <input type="email" placeholder="Tu correo" required />
-          <textarea placeholder="¿En qué puedo ayudarte?" required></textarea>
-          <button type="submit">Agendar</button>
-        </form>
+        <div className="cotiza-container">
+          <h2>Cotiza tu servicio personalizado</h2>
+          <p className="frase-motivacional">¿Tienes una idea y no sabes cómo empezar? ¡Agendá conmigo y empecemos a crear algo especial juntos!</p>
+          <form className="contact-form">
+            <input type="text" placeholder="Tu nombre" required />
+            <input type="email" placeholder="Tu correo" required />
+            <textarea placeholder="¿En qué puedo ayudarte?" required></textarea>
+            <button type="submit">Agendar</button>
+          </form>
+        </div>
       </section>
     </>
   );
