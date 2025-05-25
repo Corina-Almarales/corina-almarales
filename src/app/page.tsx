@@ -3,7 +3,8 @@ import Navbar from './components/Navbar';
 
 export default function HomePage() {
   return (
-    <>
+    <><Navbar />
+
       <section id="inicio" className="hero">
         <h1>Corina Almarales</h1>
         <p className="etiquetas">Freelancer • Trabajo Social • RRHH</p>
