@@ -67,7 +67,7 @@ Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfo
 - A localized version of Magic Portfolio is available with the next-intl library
 - To use localization, switch to the 'i18n' branch
 
-# **Authors**
+# **Creadora**
 
 Connect with us on Threads or LinkedIn.
 
