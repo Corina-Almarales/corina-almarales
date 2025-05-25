@@ -1,15 +1,30 @@
+'use client';
 import React from 'react';
-import Navbar from './components/Navbar';
+import Image from 'next/image';
+import './globals.scss';
 
 export default function HomePage() {
   return (
-    <><Navbar />
+    <>
+      <nav className="navbar">
+        <div className="logo">Constante Florecer</div>
+        <ul className="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#tarifas-contacto">Contacto</a></li>
+        </ul>
+      </nav>
 
       <section id="inicio" className="hero">
-        <h1>Corina Almarales</h1>
-        <p className="etiquetas">Freelancer • Trabajo Social • RRHH</p>
-        <h2>Servicios Creativos y Académicos</h2>
-        <p className="frase">Impulsa tu esencia con soluciones creativas y funcionales</p>
+        <h1 className="nombre">Corina Almarales</h1>
+        <div className="etiquetas">
+          <span>Freelancer</span>
+          <span>Trabajo Social</span>
+          <span>RRHH</span>
+        </div>
+        <h2 className="titulo-principal">Servicios Creativos y Académicos</h2>
+        <p className="subtitulo">Impulsa tu esencia con soluciones creativas y funcionales</p>
       </section>
 
       <section id="preview-sobre-mi" className="preview-section">
