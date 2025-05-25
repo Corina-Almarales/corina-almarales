@@ -174,3 +174,6 @@ section {
   background-color: var(--blanco);
   color: var(--morado);
 }
+html {
+  scroll-behavior: smooth;
+}
