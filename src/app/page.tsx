@@ -5,7 +5,7 @@ export default function HomePage() {
     <>
       <section id="inicio" className="hero">
         <h1>Bienvenid@ a mi Portfolio</h1>
-        <p>Servicios Creativos y Académicos a tu alcance</p>
+        <p>Servicios Creativos y Académicos</p>
         <a href="#sobre-mi" className="btn">Conóceme más</a>
       </section>
 
