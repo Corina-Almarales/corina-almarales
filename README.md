@@ -1,4 +1,4 @@
-# **Magic Portfolio by Once UI**
+# **Servicios Creativos y Academicos**
 
 View the [demo here](https://demo.magic-portfolio.com).
 
