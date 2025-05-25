@@ -29,7 +29,7 @@ export default function HomePage() {
             <h4>Asesorías y Tutorías</h4>
           </div>
           <div className="servicio-item">
-            <img src="/icons/diseno.png" alt="Diseño Gráfico" />
+            <img src="/icons/diseno.png" alt="Diseño Gráfico"  />
             <h4>Diseño Gráfico</h4>
           </div>
           <div className="servicio-item">
