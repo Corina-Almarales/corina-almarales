@@ -21,7 +21,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <li><a href="#inicio">Inicio</a></li>
               <li><a href="#sobre-mi">Sobre mí</a></li>
               <li><a href="#servicios">Servicios</a></li>
-              <li><a href="#tarifas-contacto">Tarifas y Contacto</a></li>
+              <li><a href="#tarifas">Tarifas</a></li>
+              <li><a href="#contacto">Contacto</a></li>
             </ul>
           </div>
         </nav>
