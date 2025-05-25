@@ -6,7 +6,8 @@
   --celeste: #d5f2f9;
   --dorado: #ffd700;
   --verde-menta: #d2f5e3;
-  --morado: #c2a4ff;
+  --morado: #8a4fff; /* morado oscuro */
+  --fucsia: #e91e63;
   --negro: #1a1a1a;
   --blanco: #ffffff;
 }
@@ -20,13 +21,14 @@
 body {
   font-family: 'Playfair Display', serif;
   background-color: var(--rosa);
-  color: var(--negro);
+  color: var(--morado);
   line-height: 1.6;
 }
 
 h1, h2, h3, h4 {
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: var(--morado);
 }
 
 section {
@@ -46,7 +48,7 @@ section {
 
 .hero h2 {
   font-size: 2rem;
-  color: var(--negro);
+  color: var(--morado);
   margin-top: 1rem;
 }
 
@@ -54,12 +56,12 @@ section {
   font-style: italic;
   margin-top: 0.5rem;
   font-size: 1.2rem;
-  color: var(--negro);
+  color: var(--morado);
 }
 
 .etiquetas {
   font-size: 1rem;
-  color: var(--dorado);
+  color: var(--fucsia);
   margin-bottom: 1rem;
 }
 
@@ -77,7 +79,7 @@ section {
 
 .btn:hover {
   background-color: var(--dorado);
-  color: var(--negro);
+  color: var(--morado);
 }
 
 .preview-section {
@@ -131,13 +133,14 @@ section {
 
 .cotiza-section h2 {
   font-size: 2rem;
-  color: var(--blanco);
+  color: var(--fucsia);
   margin-bottom: 1rem;
 }
 
 .frase-motivacional {
   font-style: italic;
   margin-bottom: 2rem;
+  color: var(--blanco);
 }
 
 .contact-form {
@@ -157,8 +160,8 @@ section {
 }
 
 .contact-form button {
-  background-color: var(--dorado);
-  color: var(--negro);
+  background-color: var(--fucsia);
+  color: var(--blanco);
   border: none;
   padding: 0.75rem;
   border-radius: 8px;
