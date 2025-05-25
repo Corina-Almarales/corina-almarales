@@ -1,28 +1,34 @@
-import '@/once-ui/styles/global.css';
-import Link from 'next/link';
+import '@/once-ui/styles/global.css';  
 
-export const metadata = {
-  title: 'Corina Almarales - Portafolio',
-  description: 'Servicios creativos y académicos',
-};
+import React from 'react';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
+      <head>
+        <title>Corina Almarales - Portfolio</title>
+        <meta name="description" content="Servicios Creativos y Académicos" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body>
         <nav className="navbar">
           <div className="container">
-            <Link href="/" className="logo">Corina Almarales</Link>
+            <a href="#inicio" className="logo">Corina Almarales</a>
             <ul className="nav-links">
-              <li><Link href="/">Inicio</Link></li>
-              <li><Link href="/sobre-mi">Sobre mí</Link></li>
-              <li><Link href="/servicios">Servicios</Link></li>
-              <li><Link href="/tarifas-contacto">Tarifas y Contacto</Link></li>
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#sobre-mi">Sobre mí</a></li>
+              <li><a href="#servicios">Servicios</a></li>
+              <li><a href="#tarifas-contacto">Tarifas y Contacto</a></li>
             </ul>
           </div>
         </nav>
 
-        <main>{children}</main>
+        <main>
+          {children}
+        </main>
 
         <footer className="footer">
           © 2025 Corina Almarales. Todos los derechos reservados.
