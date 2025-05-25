@@ -20,8 +20,8 @@ export default function HomePage() {
         <p>Descripción breve de los servicios que ofrezco...</p>
       </section>
 
-      <section id="tarifas-contacto" className="preview-section">
-        <h2>Tarifas y Contacto</h2>
+      <section id="contacto" className="preview-section">
+        <h2>Contacto</h2>
         <form className="contact-form">
           <input type="text" placeholder="Tu nombre" required />
           <input type="email" placeholder="Tu correo" required />
