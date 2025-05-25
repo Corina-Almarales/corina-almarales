@@ -22,7 +22,7 @@ export default function HomePage() {
         <div className="servicios-grid">
           <div className="servicio-item">
             <img src="/icons/academico.png" alt="Contenido Académico" />
-            <h4>Contenido Académico</h5>
+            <h4>Contenido Académico</h4>
           </div>
           <div className="servicio-item">
             <img src="/icons/asesoria.png" alt="Asesorías/Tutorías" />
