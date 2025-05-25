@@ -1,4 +1,4 @@
-import './globals.css';
+import '@/once-ui/styles/global.scss';
 import Link from 'next/link';
 
 export const metadata = {
