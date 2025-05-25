@@ -30,7 +30,7 @@ export default function HomePage() {
           animate={{ opacity: 1, y: 0 }} 
           transition={{ duration: 1.5 }}
         >
-          Servicios reativos y académicos
+          Servicios Creativos y Académicos
         </motion.h2>
 
         <motion.p 
