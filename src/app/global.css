@@ -236,3 +236,22 @@ html {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
+.sobre-mi-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.sobre-mi-img {
+  flex-shrink: 0;
+}
+
+.sobre-mi-texto {
+  max-width: 500px;
+}
