@@ -22,7 +22,7 @@ body {
   font-family: 'Playfair Display', serif;
   background-color: var(--rosa);
   color: var(--morado);
-  line-height: 1.6;
+  line-height: 0.6;
 }
 
 h1, h2, h3, h4 {
