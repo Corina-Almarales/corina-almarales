@@ -67,7 +67,7 @@ section {
 .btn {
   display: inline-block;
   margin-top: 4rem;
-  background-color: var(--morado);
+  background-color: var(--fucsia);
   color: var(--blanco);
   padding: 0.75rem 1.5rem;
   border-radius: 10px;
