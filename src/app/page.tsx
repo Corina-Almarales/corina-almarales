@@ -35,7 +35,7 @@ export default function HomePage() {
               src="/tu-foto.jpg" 
               alt="Foto de Corina" 
               width={250} 
-              height={250} 
+              height={350} 
               className="foto-sobre-mi"
             />
             <div>
