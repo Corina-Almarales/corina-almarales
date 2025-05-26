@@ -78,7 +78,7 @@ section {
 }
 
 .btn:hover {
-  background-color: var(--dorado);
+  background-color: var(--fucsia);
   color: var(--morado);
 }
 
