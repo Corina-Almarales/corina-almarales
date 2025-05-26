@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link href="#inicio">Constante Florecer</Link>
+        <Link href="#inicio">Corina Almarales</Link>
       </div>
       <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
         <Link href="#inicio">Inicio</Link>
