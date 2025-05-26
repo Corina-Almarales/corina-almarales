@@ -18,11 +18,7 @@ export default function HomePage() {
 
       <section id="inicio" className="hero">
         <h1 className="nombre">Corina Almarales</h1>
-        <div className="etiquetas">
-          <span>Freelancer</span>
-          <span>Trabajo Social</span>
-          <span>RRHH</span>
-        </div>
+        <p className="etiquetas">Freelancer • Trabajo Social • RRHH</p>
         <h2 className="titulo-principal">Servicios Creativos y Académicos</h2>
         <p className="subtitulo">Impulsa tu esencia con soluciones creativas y funcionales</p>
       </section>
