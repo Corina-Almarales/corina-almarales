@@ -4,6 +4,11 @@ import type { Metadata } from 'next';
 import React from 'react';
 import Navbar from './components/Navbar';
 
+export default function HomePage() {
+  return (
+    <>
+      <Navbar />
+      
 export const metadata: Metadata = {
   title: 'Corina Almarales | Portfolio',
   description: 'Servicios Creativos y Académicos',
