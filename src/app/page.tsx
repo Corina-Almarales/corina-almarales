@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Navbar from './components/Navbar'; // Ruta relativa
+import Navbar from './components/Navbar'; 
 import Image from 'next/image';
 import './global.css';
 
