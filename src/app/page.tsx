@@ -6,10 +6,7 @@ import './global.css';
 export default function HomePage() {
   return (
     <>
-
       <section id="inicio" className="hero" style={{ marginTop: '100px' }}>
-
-      <section id="inicio" className="hero">
         <h1 className="nombre">Corina Almarales</h1>
         <p className="etiquetas">Freelancer • Trabajo Social • RRHH</p>
         <h2 className="titulo-principal">Servicios Creativos y Académicos</h2>
@@ -18,7 +15,11 @@ export default function HomePage() {
 
       <section id="preview-sobre-mi" className="preview-section">
         <h2>Sobre mí</h2>
-        <p>Apasionada por diseñar experiencias digitales que florecen, combinando creatividad, sensibilidad social y atención al detalle. Siempre en evolución, logro equilibrar estética, funcionalidad y propósito para transformar ideas en soluciones significativas.</p>
+        <p>
+          Apasionada por diseñar experiencias digitales que florecen, combinando creatividad,
+          sensibilidad social y atención al detalle. Siempre en evolución, logro equilibrar
+          estética, funcionalidad y propósito para transformar ideas en soluciones significativas.
+        </p>
         <a href="#sobre-mi" className="btn">Conóceme más</a>
       </section>
 
@@ -27,19 +28,19 @@ export default function HomePage() {
         <p>Soluciones personalizadas que conectan con tu propósito.</p>
         <div className="servicios-grid">
           <div className="servicio-item">
-            <img src="/icons/academico.png" alt="Contenido Académico" />
+            <Image src="/icons/academico.png" alt="Contenido Académico" width={60} height={60} />
             <h4>Contenido Académico</h4>
           </div>
           <div className="servicio-item">
-            <img src="/icons/asesoria.png" alt="Asesorías/Tutorías" />
+            <Image src="/icons/asesoria.png" alt="Asesorías/Tutorías" width={60} height={60} />
             <h4>Asesorías y Tutorías</h4>
           </div>
           <div className="servicio-item">
-            <img src="/icons/diseno.png" alt="Diseño Gráfico"  />
+            <Image src="/icons/diseno.png" alt="Diseño Gráfico" width={60} height={60} />
             <h4>Diseño Gráfico</h4>
           </div>
           <div className="servicio-item">
-            <img src="/icons/ppt.png" alt="Presentaciones" />
+            <Image src="/icons/ppt.png" alt="Presentaciones" width={60} height={60} />
             <h4>Presentaciones</h4>
           </div>
         </div>
@@ -49,7 +50,9 @@ export default function HomePage() {
       <section id="cotiza" className="cotiza-section">
         <div className="cotiza-container">
           <h2>Cotiza tu servicio personalizado</h2>
-          <p className="frase-motivacional">¿Tienes una idea y no sabes cómo empezar? ¡Agendá conmigo y empecemos a crear algo especial juntos!</p>
+          <p className="frase-motivacional">
+            ¿Tienes una idea y no sabes cómo empezar? ¡Agendá conmigo y empecemos a crear algo especial juntos!
+          </p>
           <form className="contact-form">
             <input type="text" placeholder="Tu nombre" required />
             <input type="email" placeholder="Tu correo" required />
