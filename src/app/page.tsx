@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import './global.css';
+import Navbar from './components/Navbar';
 
 export default function HomePage() {
   return (
