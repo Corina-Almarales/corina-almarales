@@ -46,6 +46,23 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+<section id="sobre-mi" className="sobre-mi-section" data-aos="fade-up">
+  <div className="sobre-mi-container">
+    <Image 
+      src="/tu-foto.jpg" 
+      alt="Corina Almarales" 
+      width={300} 
+      height={400} 
+      className="foto-sobre-mi-grande"
+    />
+    <div className="sobre-mi-texto-detallado">
+      <h2>Más sobre mí</h2>
+      <p>Soy una profesional comprometida con el crecimiento personal, la creatividad y el impacto social. Desde el trabajo social hasta el diseño y los proyectos académicos, mi enfoque es siempre conectar con la esencia de las personas y darles soluciones auténticas, bellas y útiles.</p>
+      <p>Me encanta aprender, enseñar, crear y acompañar procesos. Actualmente combino mi experiencia en RRHH, el diseño gráfico, las asesorías académicas y mi emprendimiento <strong>Constante Florecer</strong>.</p>
+      <p>¡Gracias por visitar mi espacio creativo! 🌷</p>
+    </div>
+  </div>
+</section>
 
         <section id="preview-servicios" className="preview-section servicios-preview">
           <h2 data-aos="fade-up">Mis Servicios</h2>
