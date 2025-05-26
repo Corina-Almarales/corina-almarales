@@ -6,7 +6,7 @@
   --celeste: #d5f2f9;
   --dorado: #ffd700;
   --verde-menta: #d2f5e3;
-  --morado: #8a4fff; /* morado oscuro */
+  --morado: #8a4fff;
   --fucsia: #e91e63;
   --negro: #1a1a1a;
   --blanco: #ffffff;
@@ -25,6 +25,11 @@ body {
   line-height: 1.5;
 }
 
+/* Transiciones suaves */
+h1, h2, h3, h4, p, img, .btn {
+  transition: all 0.3s ease-in-out;
+}
+
 h1, h2, h3, h4 {
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -37,27 +42,41 @@ section {
 
 .hero {
   text-align: center;
-  background: linear-gradient(to bottom, var(--lila), var(--celeste));
   padding: 6rem 2rem;
+  background: linear-gradient(to bottom, var(--lila), var(--celeste));
+}
+
+/* Fondo animado tipo Canva */
+.animated-bg {
+  background: linear-gradient(270deg, var(--rosa), var(--lila), var(--celeste));
+  background-size: 600% 600%;
+  animation: gradientShift 12s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .hero h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: var(--morado);
 }
 
 .hero h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: var(--morado);
   margin-top: 1rem;
 }
 
 .hero .frase {
-  font-style: bold;
+  font-weight: bold;
   margin-top: 1rem;
   font-size: 6rem;
   color: var(--blanco);
 }
+
 .etiquetas {
   font-size: 2rem;
   color: var(--fucsia);
@@ -122,6 +141,7 @@ section {
 .servicio-item img:hover {
   transform: scale(1.1);
 }
+
 .servicio-item h4 {
   font-weight: 800;
   color: var(--morado);
@@ -141,7 +161,7 @@ section {
 }
 
 .frase-motivacional {
-  font-style: bold;
+  font-weight: bold;
   margin-bottom: 1rem;
   color: var(--morado);
 }
@@ -177,6 +197,7 @@ section {
   background-color: var(--morado);
   color: var(--blanco);
 }
+
 html {
   scroll-behavior: smooth;
 }
