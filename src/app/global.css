@@ -25,7 +25,11 @@ body {
   line-height: 1.5;
 }
 
-/* Transiciones suaves */
+nav a,
+nav li {
+  color: var(--blanco);
+}
+
 h1, h2, h3, h4, p, img, .btn {
   transition: all 0.3s ease-in-out;
 }
@@ -112,6 +116,15 @@ section {
   background-color: var(--verde-menta);
 }
 
+.preview-section h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.preview-section p {
+  font-size: 1.3rem;
+}
+
 .servicios-grid {
   display: flex;
   justify-content: center;
@@ -133,7 +146,7 @@ section {
   width: 200px;
   height: 200px;
   object-fit: contain;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   transition: transform 0.3s ease;
 }
 
@@ -143,7 +156,9 @@ section {
 
 .servicio-item h4 {
   font-weight: 800;
+  font-size: 1.4rem;
   color: var(--morado);
+  margin-top: 0.2rem;
 }
 
 .cotiza-section {
@@ -205,4 +220,19 @@ html {
   padding: 0.3rem 0;
   background-color: #fdf6fd;
   color: #6a1b9a;
+}
+
+.imagen-perfil {
+  border: 4px solid var(--dorado);
+  border-radius: 50%;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+}
+
+.imagen-perfil:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
