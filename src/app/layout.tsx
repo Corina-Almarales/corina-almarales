@@ -1,3 +1,5 @@
+'use client';
+
 import './global.css';
 import type { Metadata } from 'next';
 import Navbar from './components/Navbar';
@@ -5,10 +7,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
-
 export const metadata: Metadata = {
-  title: 'Corina Almarales | Portfolio',
-  description: 'Servicios Creativos y Académicos',
+  title: 'Corina Almarales | Creativa',
+  description: 'Portafolio de servicios de diseño y creatividad',
 };
 
 export default function RootLayout({
@@ -18,8 +19,8 @@ export default function RootLayout({
 }) {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
-      once: true,
+      duration: 1000,  // Duración de la animación
+      once: true,      // Solo se anima una vez al hacer scroll
     });
   }, []);
 
