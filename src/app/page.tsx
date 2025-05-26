@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import Navbar from './components/Navbar'; 
+import Navbar from './components/Navbar'; // Ruta relativa
 import Image from 'next/image';
 import './global.css';
 
@@ -59,3 +59,11 @@ export default function HomePage() {
             </form>
           </div>
         </section>
+
+        <section id="contacto">
+          {/* Aquí podrías agregar tu sección de contacto con links a redes, WhatsApp, etc. */}
+        </section>
+      </main>
+    </>
+  );
+}
