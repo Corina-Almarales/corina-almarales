@@ -141,7 +141,7 @@ section {
 }
 
 .frase-motivacional {
-  font-style: italic;
+  font-style: bold;
   margin-bottom: 2rem;
   color: var(--morado);
 }
