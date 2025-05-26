@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <>
       <nav className="navbar">
-        <div className="logo">Constante Florecer</div>
+        <div className="logo">Corina Almarales</div>
         <ul className="nav-links">
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre-mi">Sobre mí</a></li>
