@@ -1,4 +1,4 @@
-import '@/once-ui/styles/global.css';  
+import './global.css';
 
 import React from 'react';
 
