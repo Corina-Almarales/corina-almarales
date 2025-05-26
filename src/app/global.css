@@ -71,7 +71,7 @@ section {
   color: var(--blanco);
   padding: 0.75rem 1.5rem;
   border-radius: 20px;
-  text-decoration: move;
+  text-decoration: none;
   font-weight: 700;
   transition: background 0.3s;
 }
