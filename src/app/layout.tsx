@@ -1,7 +1,10 @@
 import './global.css';
 import type { Metadata } from 'next';
-import React from 'react';
 import Navbar from './components/Navbar';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 
 export const metadata: Metadata = {
   title: 'Corina Almarales | Portfolio',
