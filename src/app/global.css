@@ -178,7 +178,7 @@ section {
   color: var(--blanco);
 }
 html {
-  scroll-behavior: move;
+  scroll-behavior: smooth;
 }
 
 .footer {
