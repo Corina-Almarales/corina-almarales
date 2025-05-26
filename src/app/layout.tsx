@@ -1,41 +1,36 @@
 import './global.css';
 import Navbar from './components/Navbar';
+import type { Metadata } from 'next';
+import { Playfair_Display } from 'next/font/google';
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-playfair',
+});
+
+export const metadata: Metadata = {
+  title: 'Corina Almarales | Portfolio',
+  description: 'Servicios Creativos y Académicos para potenciar tu crecimiento',
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="es">
+    <html lang="es" className={playfair.className}>
       <body>
         <Navbar />
-        {children}
-      </body>
-    </html>
-  );
-}
-      <head>
-        <title>Corina Almarales - Portfolio</title>
-        <meta name="description" content="Servicios Creativos y Académicos" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-          rel="stylesheet"
-        />
-      </head>
-      <body>
-        <nav className="navbar">
-          <div className="container">
-            <a href="#inicio" className="logo">Corina Almarales</a>
-            <ul className="nav-links">
-              <li><a href="#inicio">Inicio</a></li>
-              <li><a href="#sobre-mi">Sobre mí</a></li>
-              <li><a href="#servicios">Servicios</a></li>
-              <li><a href="#tarifas">Tarifas</a></li>
-              <li><a href="#contacto">Contacto</a></li>
-            </ul>
-          </div>
-        </nav>
-
-        <main>
-          {children}
-        </main>
+        <main>{children}</main>
+        <footer style={{ 
+          textAlign: 'center', 
+          padding: '1rem', 
+          marginTop: '2rem',
+          color: '#8B008B', // morado oscuro
+          fontSize: '0.9rem'
+        }}>
 
         <footer className="footer">
           © 2025 Corina Almarales. Todos los derechos reservados.
