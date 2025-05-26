@@ -37,12 +37,12 @@ section {
 
 .hero {
   text-align: center;
-  background: linear-gradient(to bottom, var(--celeste), var(--celeste));
+  background: linear-gradient(to bottom, var(--lila), var(--celeste));
   padding: 6rem 2rem;
 }
 
 .hero h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--morado);
 }
 
