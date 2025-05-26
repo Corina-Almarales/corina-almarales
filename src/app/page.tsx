@@ -8,8 +8,7 @@ export default function HomePage() {
   return (
     <>
       <Navbar />
-  
-      <section id="inicio" className="hero" style={{ marginTop: '80px' }}>
+
 
       <section id="inicio" className="hero">
         <h1 className="nombre">Corina Almarales</h1>
