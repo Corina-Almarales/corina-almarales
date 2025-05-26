@@ -1,17 +1,12 @@
+// src/app/layout.tsx
 import './global.css';
-import Navbar from './components/Navbar';
 import type { Metadata } from 'next';
-import { Playfair_Display } from 'next/font/google';
-
-const playfair = Playfair_Display({
-  subsets: ['latin'],
-  weight: ['400', '700'],
-  variable: '--font-playfair',
-});
+import React from 'react';
+import Navbar from './components/Navbar';
 
 export const metadata: Metadata = {
   title: 'Corina Almarales | Portfolio',
-  description: 'Servicios Creativos y Académicos para potenciar tu crecimiento',
+  description: 'Servicios Creativos y Académicos',
 };
 
 export default function RootLayout({
@@ -20,20 +15,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className={playfair.className}>
+    <html lang="es">
       <body>
         <Navbar />
         <main>{children}</main>
-        <footer style={{ 
-          textAlign: 'center', 
-          padding: '1rem', 
-          marginTop: '2rem',
-          color: '#8B008B', // morado oscuro
-          fontSize: '0.9rem'
-        }}>
-
         <footer className="footer">
-          © 2025 Corina Almarales. Todos los derechos reservados.
+          <p className="text-sm text-center text-gray-500 mt-8">
+            © {new Date().getFullYear()} Corina Almarales. Todos los derechos reservados.
+          </p>
         </footer>
       </body>
     </html>
