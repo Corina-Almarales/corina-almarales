@@ -84,7 +84,7 @@ section {
 .preview-section {
   text-align: center;
   background-color: var(--blanco);
-  margin: 5rem auto;
+  margin: 1rem auto;
   border-radius: 12px;
   padding: 3rem 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
