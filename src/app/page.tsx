@@ -41,7 +41,7 @@ export default function HomePage() {
               />
             </div>
             <div className="sobre-mi-texto">
-              <p>Apasionada por diseñar experiencias digitales que florecen, combinando creatividad, sensibilidad social y atención al detalle. Siempre en evolución, logro equilibrar estética, funcionalidad y propósito para transformar ideas en soluciones significativas.</p>
+              <p>Apasionada por diseñar experiencias digitales que florecen combinando creatividad, sensibilidad social y atención al detalle. Siempre en evolución, equilibrando estética, funcionalidad y propósito para transformar ideas en soluciones significativas.</p>
               <a href="#sobre-mi" className="btn" data-aos="fade-up" data-aos-delay="200">Conóceme más</a>
             </div>
           </div>
