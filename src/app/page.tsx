@@ -30,15 +30,17 @@ export default function HomePage() {
 
         <section id="preview-sobre-mi" className="preview-section" data-aos="zoom-in">
           <h2>Sobre mí</h2>
-          <div className="sobre-mi-content">
-            <Image 
-              src="/tu-foto.jpg" 
-              alt="Foto de Corina" 
-              width={250} 
-              height={350} 
-              className="foto-sobre-mi"
-            />
-            <div>
+          <div className="sobre-mi-flex">
+            <div className="sobre-mi-img">
+              <Image 
+                src="/tu-foto.jpg" 
+                alt="Foto de Corina" 
+                width={250} 
+                height={350} 
+                className="foto-sobre-mi"
+              />
+            </div>
+            <div className="sobre-mi-texto">
               <p>Apasionada por diseñar experiencias digitales que florecen, combinando creatividad, sensibilidad social y atención al detalle. Siempre en evolución, logro equilibrar estética, funcionalidad y propósito para transformar ideas en soluciones significativas.</p>
               <a href="#sobre-mi" className="btn" data-aos="fade-up" data-aos-delay="200">Conóceme más</a>
             </div>
