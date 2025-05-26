@@ -1,17 +1,26 @@
-import React from 'react';
+'use client';
 import Link from 'next/link';
-import './Navbar.scss';
+import { useState } from 'react';
+import './Navbar.css';
 
 export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <nav className="navbar">
-      <div className="logo">Corina Almarales</div>
-      <ul className="nav-links">
-        <li><a href="#inicio">Inicio</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="#servicios">Servicios</a></li>
-        <li><a href="#tarifas-contacto">Contacto</a></li>
-      </ul>
+      <div className="navbar-logo">
+        <Link href="#inicio">Constante Florecer</Link>
+      </div>
+      <div className={`navbar-links ${isOpen ? 'active' : ''}`}>
+        <Link href="#inicio">Inicio</Link>
+        <Link href="#sobre-mi">Sobre mí</Link>
+        <Link href="#servicios">Servicios</Link>
+        <Link href="#tarifas-contacto">Tarifas</Link>
+        <Link href="#tarifas-contacto">Contacto</Link>
+      </div>
+      <div className="navbar-toggle" onClick={() => setIsOpen(!isOpen)}>
+        ☰
+      </div>
     </nav>
   );
 }
