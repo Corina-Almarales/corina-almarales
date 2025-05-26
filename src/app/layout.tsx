@@ -16,13 +16,18 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
+
   return (
     <html lang="es">
       <body>
         <Navbar />
-        <main style={{ paddingTop: '100px' }}>
-          {children}
-        </main>
+        <main>{children}</main>
         <footer className="footer">
           <p className="text-sm text-center text-gray-500 mt-8">
             © {new Date().getFullYear()} Corina Almarales. Todos los derechos reservados.
