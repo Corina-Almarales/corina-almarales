@@ -1,10 +1,16 @@
 import './global.css';
+import Navbar from './components/Navbar';
 
-import React from 'react';
-
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+    export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
+      <body>
+        <Navbar />
+        {children}
+      </body>
+    </html>
+  );
+}
       <head>
         <title>Corina Almarales - Portfolio</title>
         <meta name="description" content="Servicios Creativos y Académicos" />
