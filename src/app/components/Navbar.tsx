@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import './Navbar.css'; // Este es tu CSS personalizado
+import './Navbar.css';
 
 export default function Navbar() {
   return (
