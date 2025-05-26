@@ -25,7 +25,7 @@ export default function HomePage() {
           <h1 className="nombre" data-aos="fade-up">Corina Almarales</h1>
           <p className="etiquetas" data-aos="fade-up" data-aos-delay="200">Freelancer • Trabajo Social • RRHH</p>
           <h2 className="titulo-principal" data-aos="fade-right" data-aos-delay="400">Servicios Creativos y Académicos</h2>
-          <p className="subtitulo" data-aos="fade-left" data-aos-delay="400">Impulsa tu esencia con soluciones creativas y funcionales</p>
+          <p className="subtitulo" data-aos="fade-left" data-aos-delay="100">Impulsa tu esencia con soluciones creativas y funcionales</p>
         </section>
 
         <section id="preview-sobre-mi" className="preview-section" data-aos="zoom-in">
