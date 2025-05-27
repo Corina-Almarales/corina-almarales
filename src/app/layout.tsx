@@ -2,8 +2,7 @@ import './global.css';
 import type { Metadata } from 'next';
 import Navbar from './components/Navbar';
 import AOSProvider from './components/AOSProvider';
-import { ToastProvider } from './once-ui/components/ToastProvider';
-
+import { ToastProvider } from '@/once-ui/components/ToastProvider'; 
 
 export const metadata: Metadata = {
   title: 'Corina Almarales | Creativa',
