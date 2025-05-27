@@ -18,15 +18,17 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body>
-        <AOSProvider>
-          <Navbar />
-          <main>{children}</main>
-          <footer className="footer">
-            <p className="text-sm text-center text-gray-500 mt-8">
-              © {new Date().getFullYear()} Corina Almarales. Todos los derechos reservados.
-            </p>
-          </footer>
-        </AOSProvider>
+        <ToastProvider>
+          <AOSProvider>
+            <Navbar />
+            <main>{children}</main>
+            <footer className="footer">
+              <p className="text-sm text-center text-gray-500 mt-8">
+                © {new Date().getFullYear()} Corina Almarales. Todos los derechos reservados.
+              </p>
+            </footer>
+          </AOSProvider>
+        </ToastProvider>
       </body>
     </html>
   );
