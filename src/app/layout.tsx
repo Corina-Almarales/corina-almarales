@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body>
-        <ToastProvider>
+        {/* <ToastProvider> */}
           <AOSProvider>
             <Navbar />
             <main>{children}</main>
@@ -27,7 +27,7 @@ export default function RootLayout({
               </p>
             </footer>
           </AOSProvider>
-        </ToastProvider>
+        {/* </ToastProvider> */}
       </body>
     </html>
   );
