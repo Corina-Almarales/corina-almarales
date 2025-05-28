@@ -18,8 +18,8 @@ export default function SobreMi() {
           <Image src="/tu-foto.jpg" alt="Foto Corina" width={250} height={250} className="foto-cv" />
         </div>
         <div className="bio-info" data-aos="fade-left">
-          <h1>Corina Almarales</h1>
-          <p>🌸 Trabajadora Social | Diseñadora Empírica | Emprendedora Creativa</p>
+          <h1>Sobre Mí</h1>
+          <p>🌸 Trabajadora Social | Diseñadora Empírica | Emprendedora</p>
           <p>
             Soy apasionada por el desarrollo personal, el bienestar, el diseño emocional y la creación de soluciones funcionales con sentido social.
             Me especializo en transformar ideas en experiencias visuales auténticas, humanas y profesionales.
