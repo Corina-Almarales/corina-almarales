@@ -1,20 +1,12 @@
 'use client';
 
-import React from 'react';
-
-export default function GlobalError({
-  error,
-  reset,
-}: {
-  error: Error;
-  reset: () => void;
-}) {
+export default function GlobalError({ error, reset }: { error: Error; reset: () => void }) {
   return (
     <html>
       <body>
-        <h2>¡Algo salió mal!</h2>
+        <h1>¡Ups! Algo salió mal.</h1>
         <p>{error.message}</p>
-        <button onClick={() => reset()}>Intentar de nuevo</button>
+        <button onClick={reset}>Reintentar</button>
       </body>
     </html>
   );
