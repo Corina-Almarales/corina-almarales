@@ -5,7 +5,7 @@ import AOSProvider from './components/AOSProvider';
 import { ToastProvider } from '@/once-ui/components/ToastProvider'; 
 
 export const metadata: Metadata = {
-  title: 'Corina Almarales | Creativa',
+  title: 'Corina Almarales | Servicios',
   description: 'Portafolio de servicios de diseño y creatividad',
 };
 
